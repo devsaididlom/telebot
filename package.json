@@ -1,0 +1,26 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "telegram bot",
+  "main": "app.js",
+  "start": "nodemon app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "tg",
+    "bot"
+  ],
+  "author": "Saidweb",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.3.4",
+    "pm2": "^5.2.0",
+    "telebot": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
